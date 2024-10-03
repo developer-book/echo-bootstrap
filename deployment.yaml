@@ -32,4 +32,4 @@ spec:
             - name: http
               containerPort: 80
         - name: echo
-          image: ghcr.io/jpubdocker/echo:v0.1.0-slim # {"$imagepolicy": "flux-system:echo"}
+          image: ghcr.io/developer-book/echo:v0.1.0-slim # {"$imagepolicy": "flux-system:echo"}
